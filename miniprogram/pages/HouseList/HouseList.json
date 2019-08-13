@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-datetime-picker": "vant-weapp/datetime-picker/index",
+    "van-nav-bar": "vant-weapp/nav-bar/index",
+    "van-tab": "vant-weapp/tab/index",
+    "van-tabs": "vant-weapp/tabs/index"
+  }
+}

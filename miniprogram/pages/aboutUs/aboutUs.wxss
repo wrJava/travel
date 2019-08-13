@@ -1,0 +1,22 @@
+/* pages/aboutUs/aboutUs.wxss */
+.content{
+  position: absolute;
+  top: 600rpx;
+  left: 45rpx;
+  width: 90%;
+  height: auto;
+}
+.head{
+  position: absolute;
+  top: 100rpx;
+  left: 150rpx;
+}
+.img-su{
+  width: 450rpx;
+  height: 450rpx;
+  border-radius: 50%; 
+  overflow: hidden;
+}
+text{
+  font-size: 28rpx;
+}

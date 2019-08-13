@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/HouseList/HouseList",
+    "pages/Myinfo/Myinfo",
+    "pages/housing/housing",
+    "pages/aboutUs/aboutUs",
+    "pages/Userinfo/user",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundColor": "#ddd",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#DE8B3B",
+    "navigationBarTitleText": "中邯旅行社",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#ddd",
+    "selectedColor": "#D1E3F7",
+    "backgroundColor": "#DE8B3B",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "iconPath": "/images/icon/yuded.png",
+        "selectedIconPath": "/images/icon/yud.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/housing/housing",
+        "iconPath": "/images/icon/dded.png",
+        "selectedIconPath": "/images/icon/dd.png",
+        "text": "房源"
+      },
+      {
+        "pagePath": "pages/Myinfo/Myinfo",
+        "iconPath": "/images/icon/myed.png",
+        "selectedIconPath": "/images/icon/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

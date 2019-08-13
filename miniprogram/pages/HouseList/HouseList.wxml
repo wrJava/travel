@@ -1,0 +1,5 @@
+<van-tabs swipeable active="{{ active }}" bind:change="onChange">
+  <van-tab title="待确认">内容 1</van-tab>
+  <van-tab title="已确认">内容 2</van-tab>
+  <van-tab title="已退款">内容 3</van-tab>
+</van-tabs>

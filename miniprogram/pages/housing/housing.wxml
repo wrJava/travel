@@ -1,0 +1,18 @@
+<!--pages/housing/housing.wxml-->
+<view>
+  <view class='view1'>
+      <text class='tex1'>已选条件 {{starttime}}至 {{endtime}}
+    </text>
+    <button class='btn0'>清除选择</button>
+  </view>
+  <view class="view2" data-id='{{item._id}}' bindtap="todetials" wx:for='{{houselist}}' wx:key='index'>
+    <image src='{{item.houseimg}}'></image>
+      <view class='view2-content'>
+        <text class='con1'>{{item.hotelname}}</text>
+        <text class='con2'>均价 ￥{{item.price}}</text>
+      </view>
+      <view>
+        <text class='bed'>{{item.housetype}}</text>
+      </view>
+  </view>
+</view>

@@ -1,0 +1,52 @@
+/* pages/housing/housing.wxss */
+.view1{
+  width: 100%;
+  height: 100rpx;
+  background: #DE8B3B;
+}
+.tex1{
+  font-size: 26rpx;
+  color: #EAF0F7;
+  margin: 0 30rpx;
+}
+input{
+  height: 50rpx;
+  border-bottom: 1rpx solid #333;
+}
+.btn0{
+  font-size: 26rpx;
+  color: #ddd;
+  position: absolute;
+  left: 560rpx;
+  top: 0rpx;
+}
+.view2{
+  width: 90%;
+  height: 430rpx;
+  margin: 0 auto;
+  background:#f2f2f2;
+  margin-top: 40rpx;
+}
+.view2>image{
+  width: 100%;
+  height: 300rpx;
+  overflow: hidden;
+}
+.view2-content{
+  display: flex;
+  justify-content: space-between;
+}
+.view2-content .con1{
+  font-size: 32rpx;
+  color: black;
+  margin-left: 15rpx;
+}
+.view2-content .con2{
+  color: #1C5DB9;
+  font-size: 28rpx;
+  margin-right: 15rpx;
+}
+.bed{
+  font-size: 22rpx;
+  margin-left: 15rpx;
+}

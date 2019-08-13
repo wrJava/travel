@@ -1,0 +1,117 @@
+/* pages/Home/Home.wxss */
+.u-wrp-bnr{
+  width: 100%;
+  height: 500rpx;
+  display: block;
+  position: relative;
+  top: 0rpx;
+  background: #f0f0f0;
+}
+.u-img-slide{
+  width: 100%;
+  height: inherit;
+}
+.conent{ 
+  position: absolute;
+  display: flex;
+  top: 450rpx;
+  left: 40rpx;
+  width: 90%;
+  height: 400rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  box-shadow: 0rpx 5rpx 10rpx orange;
+}
+.conent .text-yd{
+  position: absolute;
+  top: 50rpx;
+  left: 30rpx;
+  color:#000;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.conent .text-sj{
+  position: absolute;
+  top: 120rpx;
+  left: 30rpx;
+  color:#000;
+  font-size: 24rpx;
+}
+.conent .img-rl{
+  position: absolute;
+  top: 160rpx;
+  left: 30rpx;
+  width: 40rpx;
+  height: 50rpx;
+}
+.conent .inp-rztime{
+  position: absolute;
+  top: 160rpx;
+  left: 100rpx;
+  font-size: 30rpx;
+  width: 180rpx;
+  border-bottom: 1px solid #000;
+}
+.conent .inp-rztime2{
+  position: absolute;
+  top: 160rpx;
+  right: 120rpx;
+  font-size: 30rpx;
+  width: 180rpx;
+  border-bottom: 1px solid #000;
+}
+.conent .vi-time{
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  background: #000;
+  position: absolute;
+  top: 170rpx;
+  left: 300rpx;
+}
+.conent .vi-time .vi-night{
+  color: #fff;
+  font-size: 15rpx;
+  text-align: center;
+  position: absolute;
+  left: 14rpx;
+  top: 10rpx;
+}
+.vi-night1{
+  color: #fff;
+  font-size: 15rpx;
+  text-align: center;
+  margin:0.25rem auto;
+}
+.tui-picker-content{
+  position: absolute;
+  top: 170rpx;
+  left: 90rpx;
+  width: 170rpx;
+  font-size: 30rpx;
+  border-bottom:1rpx solid #000;
+}
+.tui-picker-content2{
+  position: absolute;
+  top: 170rpx;
+  right: 120rpx;
+  width: 170rpx;
+  font-size: 30rpx;
+  border-bottom:1rpx solid #000;
+}
+
+.btn-yd{
+  background: rgb(238, 156, 3);
+  width: 90%;
+  font-size: 30rpx;
+  color: #ddd;
+  position: absolute;
+  top: 270rpx;
+  left:20rpx;
+}
+.kfrx{
+  font-size: 20rpx;
+  position: absolute;
+  top: 360rpx;
+  left: 220rpx;
+}

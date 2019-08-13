@@ -1,0 +1,12 @@
+<!--pages/aboutUs/aboutUs.wxml-->
+<view>
+  <view class='head'>
+    <image class='img-su' src='/images/tou/11.jpg'></image>
+  </view>
+  <view class='content'>
+    <text>
+     邯郸市邯山区中邯国际旅行社有限公司，办公室地址位于具有1万年的历史和3100年的建城史的邯郸，河北省邯郸市邯山区农林路57号，我旅行社主要提供国内旅游、出境旅游业务；会议服务；旅游信息咨询；工艺品（不含文物、古玩）、日用百货的销售。
+    </text>
+  </view>
+ 
+</view>

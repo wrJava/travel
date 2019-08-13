@@ -1,0 +1,25 @@
+
+<button src="/" wx:if="{{!hasUserInfo && canIUse}}" class="nologin" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+  <view class='view-one'>
+    <view class='myInfo'>
+      <image src='/images/tou/timg.jpg'></image>
+    </view>
+    <text class='tex-uname'>点击登录</text>
+  </view>
+</button>
+
+<view class='view-one' wx:else>
+  <view class='myInfo'>
+    <image src='{{userInfo.avatarUrl}}'></image>
+  </view>
+  <text class='tex-uname'>{{userInfo.nickName}}</text>
+</view>
+<van-cell-group>
+  <van-cell title="服务热线" value="0310-4164855" />
+</van-cell-group>
+<van-cell is-link title="我的信息" bindtap="touser"/>
+<van-cell is-link title="我的订单" bindtap="toorder"/>
+<view class='about'>
+  <van-cell is-link title="关于中邯" link-type="navigateTo" url="/pages/aboutUs/aboutUs" />
+</view>
+

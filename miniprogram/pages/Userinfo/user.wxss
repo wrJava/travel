@@ -1,0 +1,5 @@
+/* miniprogram/pages/Userinfo/user.wxss */
+.txt{width:100%;height:40px;line-height: 40px;padding-left: 10px;border:1px solid #ccc;border-top:none;}
+.txt:first-child{border-top:1px solid #ccc}
+.content{width:100%;margin-top:10px;}
+.btn{position: fixed;bottom:0px; background: #f00;color: #fff; width:100%;height:50px;line-height: 50px;}
